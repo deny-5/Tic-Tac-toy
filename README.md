@@ -1,3 +1,3 @@
 # Tic-Tac-toy
 
-https://GITHUB-USERNAME.github.io/Tic-Tac-toy/index.html
+https://deny-5.github.io/Tic-Tac-toy/index.html
