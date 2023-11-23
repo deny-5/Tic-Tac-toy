@@ -15,12 +15,12 @@ body {
 	display: flex;
 	flex-direction:row;
     justify-content: center;
-    width: 90%;
+    width: 92.5%;
     height: 37.5rem;
     position: relative;
     top: 30px;
 
-    margin-left: 2rem;
+    margin-left: 30px;
 }
 
 @media (max-width: 897px) {
@@ -29,8 +29,8 @@ body {
         display: flex;
         flex-direction:row;
         justify-content: center;
-        width: 87%;
-        height: 18.5rem;
+        width: 80vw;
+        height: 62.5vh;                /* 18.5rem;*/
         position: relative;
         top: 30px;
     }
@@ -42,8 +42,8 @@ body {
         display: flex;
         flex-direction:row;
         justify-content: center;
-        width: 70%;
-        height: 50rem;
+        width: 66vw;
+        height: 70vh;                  /*50rem;*/
         position: relative;
         top: 30px;
     }
