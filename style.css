@@ -8,13 +8,14 @@ body {
 }
 
 #flex_wrapper {
-    background: rgb(155, 164, 135);
-	border: 0px solid ;
+    background:rgb(187, 199, 209);;
+	border: 1px solid ;
 	border-radius: 20px;
 	padding: 25px;
 	display: flex;
-	flex-direction:row;
+	flex-direction: row-reverse;
     justify-content: center;
+    align-items: center;
     width: 92.5%;
     height: 37.5rem;
     position: relative;
@@ -23,28 +24,81 @@ body {
     margin-left: 30px;
 }
 
+#button {
+    
+    font-family:  monospace;
+    font-size: xx-large;
+    width: 280px;
+    height: 220px;
+    border: 0px solid ;
+    border-radius: 20px;
+    background-color: rgb(211, 243, 243);
+    margin-left: 40px;
+
+}
+
 @media (max-width: 897px) {
     #flex_wrapper {
         padding: 25px;
         display: flex;
         flex-direction:row;
-        justify-content: center;
+        justify-content: space-around;
         width: 80vw;
         height: 62.5vh;                /* 18.5rem;*/
         position: relative;
         top: 30px;
     }
+
+    #button {
+    
+        font-size: xx-large;
+        width: 280px;
+        height: 220px;
+        border: 0px solid ;
+        border-radius: 20px;
+        background-color: rgb(211, 243, 243);
+        margin: auto;
+    
+    }
 }
 
 @media (max-width: 415px){
     #flex_wrapper {
+        
         padding: 25px;
         display: flex;
-        flex-direction:row;
-        justify-content: center;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        align-items: center;
         width: 66vw;
         height: 70vh;                  /*50rem;*/
-        position: relative;
         top: 30px;
     }
+    #button {
+    
+        font-size: xx-large;
+        width: 280px;
+        height: 220px;
+        border: 0px solid ;
+        border-radius: 20px;
+        background-color: rgb(211, 243, 243);
+        margin: auto;
+    
+    }
+
+
 }
+
+
+
+#grid { display: grid; }
+
+#grid > div {
+    
+    border: 1.8px solid ;
+    border-radius: 20px;
+
+}
+
+#grid > div:hover { background-color: rgb(211, 243, 243); }
+
