@@ -37,6 +37,45 @@ body {
 
 }
 
+#grid { 
+
+    display: grid;
+    grid-template-rows: repeat(3, 100px);
+    grid-template-columns: repeat(3, 100px);
+    background-color: rgb(187, 199, 209);
+ }
+
+#grid button {
+
+    display: grid;
+    width: 90px;
+    height: 90px;
+    border: 1.8px solid ;
+    border-radius: 20px;
+
+}
+
+#grid button:hover { background-color: rgb(211, 243, 243); }
+
+#grid img {
+
+    display: none;
+    width: 90px;
+    height: 90px;
+
+}
+
+#num-1 { grid-row: 1; grid-column: 1; }
+#num-2 { grid-row: 1; grid-column: 2; }
+#num-3 { grid-row: 1; grid-column: 3; }
+#num-4 { grid-row: 2; grid-column: 1; }
+#num-5 { grid-row: 2; grid-column: 2; }
+#num-6 { grid-row: 2; grid-column: 3; }
+#num-7 { grid-row: 3; grid-column: 1; }
+#num-8 { grid-row: 3; grid-column: 2; }
+#num-9 { grid-row: 3; grid-column: 3; }
+
+
 @media (max-width: 897px) {
     #flex_wrapper {
         padding: 25px;
@@ -88,17 +127,3 @@ body {
 
 
 }
-
-
-
-#grid { display: grid; }
-
-#grid > div {
-    
-    border: 1.8px solid ;
-    border-radius: 20px;
-
-}
-
-#grid > div:hover { background-color: rgb(211, 243, 243); }
-
