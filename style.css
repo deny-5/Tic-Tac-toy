@@ -4,6 +4,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center; 
+    background-color: rgb(135, 194, 194);
 }
 
 #wrapper {
@@ -54,6 +55,7 @@ body {
 @media (max-width: 897px) {
 
     #wrapper {
+        margin-top: 2.5em;
         flex-direction: row;
     }
 
@@ -82,7 +84,7 @@ body {
 
     #wrapper {
         flex-direction: column;
-        
+
     }
 
     .grid {
